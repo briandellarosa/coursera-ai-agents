@@ -117,7 +117,7 @@ flowchart LR
   end
 
   subgraph Lane_Actions[Actions]
-    Ac1[list_project_files()]
+    Ac1["list_project_files()"]
     Ac2["read_project_file(name)"]
     Ac3["terminate(message)"]
   end
